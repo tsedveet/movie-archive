@@ -39,7 +39,7 @@
     "id": 5,
     "title": "Mortal Kombat",
     "year": 2021,
-    "genre": ["Drama", "Crime"],
+    "genre": ["Action", "Crime"],
     "poster": "posters/mortal.jpg",
     "description": "A gritty character study of Arthur Fleck.",
     "trailer": "https://t.me/c/3644144106/15"
