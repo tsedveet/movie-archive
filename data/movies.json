@@ -51,7 +51,8 @@
   "type": "series",
   "genre": ["TV series", "Comedy"],
   "poster": "posters/friends.webp",
-  "description": "The personal and professional lives of six friends living in Manhattan.",
+  "description": "The personal and professional lives of six friends living in the Manhattan borough of New York City.",
+  "series_trailer": "https://www.imdb.com/video/vi794543641/?playlistId=tt0108778&ref_=tt_ov_ov_vi",
   "seasons": [
     {
       "season": 1,

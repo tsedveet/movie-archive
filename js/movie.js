@@ -61,6 +61,16 @@ initAccordion();
       <p class="meta">${movie.year} · ${movie.genre.join(", ")}</p>
       <p>${movie.description}</p>
       ${
+        movie.series_trailer
+          ? `<a
+               href="${movie.trailer}"
+               target="_blank"
+               class="detail-trailer-btn">
+               ▶ Tрейлер үзэх
+             </a>`
+          : ``
+      }
+      ${
         movie.trailer
           ? `<a
                href="${movie.trailer}"
