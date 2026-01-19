@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Movieе-Archive</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+<header class="header">
+  <h1><a href="index.html">🎬 Movie Archive</a></h1>
+  <nav class="nav">
+  <!-- <a href="index.html">Нүүр</a> -->
+  <a href="about.html" class="active">Бидний тухай</a>
+</nav>
+
+  <div class="controls">
+    <input
+      type="text"
+      id="search"
+      placeholder="Кино нэрээр хайх..."
+    />
+
+    <select id="genre">
+      <option value="all">Бүх төрөл</option>
+    </select>
+  </div>
+
+  <button id="themeToggle" class="theme-toggle" aria-label="Toggle dark mode">
+  🌙
+</button>
+
+</header>
+
+<main>
+  <div id="movies" class="grid"></div>
+  <div id="pagination" class="pagination"></div>
+</main>
+
+<footer>Copyright© Movie Archive</footer>
+
+<script src="js/app.js"></script>
+<script src="js/theme.js"></script>
+
+</body>
+</html>
