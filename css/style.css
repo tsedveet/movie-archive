@@ -348,3 +348,87 @@ body.dark .detail-back-btn:hover {
   color: #111;
 }
 
+.season-title {
+  margin-top: 40px;
+  margin-bottom: 16px;
+}
+
+.season {
+  margin-bottom: 24px;
+}
+
+.season h3 {
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+.season ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.episode {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+  border-bottom: 1px solid rgba(255,255,255,0.08);
+  font-size: 14px;
+}
+
+/* Watch button */
+.episode-btn {
+  text-decoration: none;
+  font-size: 13px;
+  padding: 6px 12px;
+  border-radius: 999px;
+  border: 1px solid #444;
+  color: #e6e6e6;
+  transition: background 0.2s ease;
+}
+
+.episode-btn:hover {
+  background: #e6e6e6;
+  color: #111;
+}
+
+.season {
+  margin-bottom: 16px;
+}
+
+/* Season header */
+.season-header {
+  width: 100%;
+  background: none;
+  border: none;
+  color: inherit;
+  font-size: 15px;
+  font-weight: 600;
+  padding: 10px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+
+/* Chevron */
+.chevron {
+  transition: transform 0.3s ease;
+}
+
+/* Accordion content */
+.season-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.4s ease;
+}
+
+/* Active state */
+.season.open .season-content {
+  max-height: 1000px; /* хангалттай том */
+}
+
+.season.open .chevron {
+  transform: rotate(180deg);
+}

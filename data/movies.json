@@ -43,5 +43,221 @@
     "poster": "posters/mortal.jpg",
     "description": "A gritty character study of Arthur Fleck.",
     "trailer": "https://t.me/c/3644144106/15"
-  }
+  },
+  {
+  "id": 6,
+  "title": "Friends",
+  "year": 1994,
+  "type": "series",
+  "genre": ["TV series", "Comedy"],
+  "poster": "posters/friends.webp",
+  "description": "The personal and professional lives of six friends living in Manhattan.",
+  "seasons": [
+    {
+      "season": 1,
+      "episodes": [
+        {
+          "episode": 1,
+          "title": "The One Where Monica Gets a Roommate",
+          "watch": "https://example.com/friends-s1-e1"
+        },
+        {
+          "episode": 2,
+          "title": "The One with the Sonogram at the End",
+          "watch": "https://example.com/friends-s1-e2"
+        },
+        {
+          "episode": 3,
+          "title": "The One with the Sonogram at the End",
+          "watch": "https://example.com/friends-s1-e2"
+        },
+        {
+          "episode": 4,
+          "title": "The One with the Sonogram at the End",
+          "watch": "https://example.com/friends-s1-e2"
+        },
+        {
+          "episode": 5,
+          "title": "The One with the Sonogram at the End",
+          "watch": "https://example.com/friends-s1-e2"
+        },
+        {
+          "episode": 6,
+          "title": "The One with the Sonogram at the End",
+          "watch": "https://example.com/friends-s1-e2"
+        },
+        {
+          "episode": 7,
+          "title": "The One with the Sonogram at the End",
+          "watch": "https://example.com/friends-s1-e2"
+        },
+        {
+          "episode": 8,
+          "title": "The One with the Sonogram at the End",
+          "watch": "https://example.com/friends-s1-e2"
+        },
+        {
+          "episode": 9,
+          "title": "The One with the Sonogram at the End",
+          "watch": "https://example.com/friends-s1-e2"
+        },
+        {
+          "episode": 10,
+          "title": "The One with the Sonogram at the End",
+          "watch": "https://example.com/friends-s1-e2"
+        },
+        {
+          "episode": 11,
+          "title": "The One with the Sonogram at the End",
+          "watch": "https://example.com/friends-s1-e2"
+        },
+        {
+          "episode": 12,
+          "title": "The One with the Sonogram at the End",
+          "watch": "https://example.com/friends-s1-e2"
+        },
+        {
+          "episode": 13,
+          "title": "The One with the Sonogram at the End",
+          "watch": "https://example.com/friends-s1-e2"
+        },
+        {
+          "episode": 14,
+          "title": "The One with the Sonogram at the End",
+          "watch": "https://example.com/friends-s1-e2"
+        },
+        {
+          "episode": 15,
+          "title": "The One with the Sonogram at the End",
+          "watch": "https://example.com/friends-s1-e2"
+        },
+        {
+          "episode": 16,
+          "title": "The One with the Sonogram at the End",
+          "watch": "https://example.com/friends-s1-e2"
+        },
+        {
+          "episode": 17,
+          "title": "The One with the Sonogram at the End",
+          "watch": "https://example.com/friends-s1-e2"
+        },
+        {
+          "episode": 18,
+          "title": "The One with the Sonogram at the End",
+          "watch": "https://example.com/friends-s1-e2"
+        },
+        {
+          "episode": 19,
+          "title": "The One with the Sonogram at the End",
+          "watch": "https://example.com/friends-s1-e2"
+        },
+        {
+          "episode": 20,
+          "title": "The One with the Sonogram at the End",
+          "watch": "https://example.com/friends-s1-e2"
+        },
+        {
+          "episode": 21,
+          "title": "The One with the Sonogram at the End",
+          "watch": "https://example.com/friends-s1-e2"
+        },
+        {
+          "episode": 22,
+          "title": "The One with the Sonogram at the End",
+          "watch": "https://example.com/friends-s1-e2"
+        },
+        {
+          "episode": 23,
+          "title": "The One with the Sonogram at the End",
+          "watch": "https://example.com/friends-s1-e2"
+        },
+        {
+          "episode": 24,
+          "title": "The One with the Sonogram at the End",
+          "watch": "https://example.com/friends-s1-e2"
+        }
+      ]
+    },
+    {
+      "season": 2,
+      "episodes": [
+        {
+          "episode": 1,
+          "title": "The One with Ross's New Girlfriend",
+          "watch": "https://example.com/friends-s2-e1"
+        },
+        {
+          "episode": 2,
+          "title": "The One with Ross's New Girlfriend",
+          "watch": "https://example.com/friends-s2-e1"
+        },
+        {
+          "episode": 3,
+          "title": "The One with Ross's New Girlfriend",
+          "watch": "https://example.com/friends-s2-e1"
+        },
+        {
+          "episode": 4,
+          "title": "The One with Ross's New Girlfriend",
+          "watch": "https://example.com/friends-s2-e1"
+        },
+        {
+          "episode": 5,
+          "title": "The One with Ross's New Girlfriend",
+          "watch": "https://example.com/friends-s2-e1"
+        },
+        {
+          "episode": 6,
+          "title": "The One with Ross's New Girlfriend",
+          "watch": "https://example.com/friends-s2-e1"
+        },
+        {
+          "episode": 7,
+          "title": "The One with Ross's New Girlfriend",
+          "watch": "https://example.com/friends-s2-e1"
+        },
+        {
+          "episode": 8,
+          "title": "The One with Ross's New Girlfriend",
+          "watch": "https://example.com/friends-s2-e1"
+        },
+        {
+          "episode": 9,
+          "title": "The One with Ross's New Girlfriend",
+          "watch": "https://example.com/friends-s2-e1"
+        },
+        {
+          "episode": 10,
+          "title": "The One with Ross's New Girlfriend",
+          "watch": "https://example.com/friends-s2-e1"
+        },
+        {
+          "episode": 11,
+          "title": "The One with Ross's New Girlfriend",
+          "watch": "https://example.com/friends-s2-e1"
+        },
+        {
+          "episode": 12,
+          "title": "The One with Ross's New Girlfriend",
+          "watch": "https://example.com/friends-s2-e1"
+        },
+        {
+          "episode": 13,
+          "title": "The One with Ross's New Girlfriend",
+          "watch": "https://example.com/friends-s2-e1"
+        },
+        {
+          "episode": 14,
+          "title": "The One with Ross's New Girlfriend",
+          "watch": "https://example.com/friends-s2-e1"
+        },
+        {
+          "episode": 15,
+          "title": "The One with Ross's New Girlfriend",
+          "watch": "https://example.com/friends-s2-e1"
+        }
+      ]
+    }
+  ]
+}
 ]
