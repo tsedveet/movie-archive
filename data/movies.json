@@ -2,6 +2,8 @@
   {
     "id": 1,
     "createdAt": "2025-01-18T18:42:00",
+    "explain": "Telegram-д нэгдсэнээр киногоо үзэх болотжтой болох юм.",
+    "telegram_address": "https://t.me/+1zJcxQEVe3owMTQ1",
     "title": "Inception",
     "year": 2010,
     "genre": ["Sci-Fi", "Thriller"],
@@ -13,6 +15,8 @@
   {
     "id": 2,
     "createdAt": "2025-01-18T18:50:00",
+    "explain": "Telegram-д нэгдсэнээр киногоо үзэх болотжтой болох юм.",
+    "telegram_address": "https://t.me/+1zJcxQEVe3owMTQ1",
     "title": "Interstellar",
     "year": 2014,
     "genre": ["Sci-Fi", "Drama"],
@@ -24,6 +28,8 @@
   {
     "id": 3,
     "createdAt": "2025-01-19T09:42:00",
+    "explain": "Telegram-д нэгдсэнээр киногоо үзэх болотжтой болох юм.",
+    "telegram_address": "https://t.me/+1zJcxQEVe3owMTQ1",
     "title": "Joker",
     "year": 2019,
     "genre": ["Drama", "Crime"],
@@ -35,6 +41,8 @@
   {
     "id": 4,
     "createdAt": "2025-01-19T18:42:00",
+    "explain": "Telegram-д нэгдсэнээр киногоо үзэх болотжтой болох юм.",
+    "telegram_address": "https://t.me/+1zJcxQEVe3owMTQ1",
     "title": "Now You See Me",
     "year": 2025,
     "genre": ["Drama", "Crime"],
@@ -46,6 +54,8 @@
   {
     "id": 5,
     "createdAt": "2025-01-20T13:42:00",
+    "explain": "Telegram-д нэгдсэнээр киногоо үзэх болотжтой болох юм.",
+    "telegram_address": "https://t.me/+1zJcxQEVe3owMTQ1",
     "title": "Mortal Kombat",
     "year": 2021,
     "genre": ["Action", "Crime"],
@@ -58,7 +68,7 @@
     "id": 6,
     "createdAt": "2025-01-20T18:42:00",
     "price": "7000₮",
-    "explain": "Friends цувралыг үзэхын тулд бидэнтэй холбогдож, төлбөрөө төлсөний дараа доорх товчийг дарж манай Telegram сувагт нэгдсэнээр киногоо үзэх болотжтой болох юм.",
+    "explain": "Friends цувралыг үзэхын тулд бидэнтэй холбогдож, төлбөрөө төлсөний дараа доорх товчийг дарж манай Telegram сувагт нэгдсэнээр киногоо үзэх боломжтой болох юм.",
     "telegram_address": "https://t.me/+65tSzMT7A_0xMDk1",
     "title": "Friends [English Subtitles]",
     "year": 1994,

@@ -4,7 +4,10 @@
 
 body {
   margin: 0;
-  font-family: system-ui, -apple-system, sans-serif;
+  font-family:
+    system-ui,
+    -apple-system,
+    sans-serif;
   background: #f7f7f8;
   color: #111;
 }
@@ -22,7 +25,7 @@ body {
 .header h1 {
   margin: 0 0 0px;
 }
-.header a{
+.header a {
   text-decoration: none;
 }
 
@@ -70,7 +73,7 @@ main {
   background: white;
   border-radius: 14px;
   overflow: hidden;
-  box-shadow: 0 8px 20px rgba(0,0,0,0.06);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.06);
   transition: transform 0.2s ease;
 }
 
@@ -181,7 +184,7 @@ body.dark select {
 
 body.dark .movie-card {
   background: #161a22;
-  box-shadow: 0 10px 30px rgba(0,0,0,0.6);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.6);
 }
 
 body.dark .movie-card .meta {
@@ -215,11 +218,13 @@ body.dark a {
   display: flex;
   align-items: center;
   justify-content: center;
-  transition: background 0.2s ease, box-shadow 0.2s ease;
+  transition:
+    background 0.2s ease,
+    box-shadow 0.2s ease;
 }
 
 .theme-toggle:hover {
-  box-shadow: 0 6px 16px rgba(0,0,0,0.15);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
 }
 
 body.dark .theme-toggle {
@@ -290,13 +295,15 @@ footer {
   color: #111;
   border: 1px solid #ddd;
   border-radius: 999px;
-  transition: background 0.2s ease, box-shadow 0.2s ease;
+  transition:
+    background 0.2s ease,
+    box-shadow 0.2s ease;
 }
 
 .detail-trailer-btn:hover {
   background: #111;
   color: white;
-  box-shadow: 0 6px 16px rgba(0,0,0,0.2);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
 }
 
 /* Dark mode */
@@ -328,13 +335,15 @@ body.dark .detail-trailer-btn:hover {
   border: 1px solid #ddd;
   border-radius: 999px;
   padding: 6px 12px;
-  transition: background 0.2s ease, box-shadow 0.2s ease;
+  transition:
+    background 0.2s ease,
+    box-shadow 0.2s ease;
 }
 
 .detail-back-btn:hover {
   background: #111;
   color: white;
-  box-shadow: 0 6px 16px rgba(0,0,0,0.2);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
 }
 
 /* Dark mode */
@@ -373,7 +382,7 @@ body.dark .detail-back-btn:hover {
   justify-content: space-between;
   align-items: center;
   padding: 10px 0;
-  border-bottom: 1px solid rgba(255,255,255,0.08);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
   font-size: 14px;
 }
 
@@ -384,7 +393,7 @@ body.dark .detail-back-btn:hover {
   padding: 6px 12px;
   border-radius: 999px;
   border: 1px solid #444;
-  color: #e6e6e6;
+  color: #646464;
   transition: background 0.2s ease;
 }
 
@@ -436,11 +445,11 @@ body.dark .detail-back-btn:hover {
 .seasons-block {
   margin-top: 40px;
   padding-top: 24px;
-  border-top: 1px solid rgba(0,0,0,0.08);
+  border-top: 1px solid rgba(0, 0, 0, 0.08);
 }
 
 body.dark .seasons-block {
-  border-top: 1px solid rgba(255,255,255,0.12);
+  border-top: 1px solid rgba(255, 255, 255, 0.12);
 }
 
 .detail-actions {
@@ -450,7 +459,6 @@ body.dark .seasons-block {
   gap: 14px;
   flex-wrap: wrap;
 }
-
 
 .maintenance-banner {
   position: fixed;
@@ -484,6 +492,13 @@ body.dark .seasons-block {
   opacity: 1;
 }
 
+body:not(.dark) .price-badge {
+  background: #f5f7fa;          /* light gray */
+  color: #111;                  /* dark text */
+  border: 1px solid #d0d7de;    /* subtle border */
+}
+
+
 /* Dark mode */
 body.dark .maintenance-banner {
   background: #2a1f00;
@@ -499,12 +514,9 @@ body.dark .maintenance-banner {
   padding: 6px 12px;
   font-size: 16px;
   border-radius: 999px;
-  background: rgba(255,255,255,0.08);
+  background: rgba(255, 255, 255, 0.08);
   color: #e6e6e6;
 }
 
-/* Light mode */
-body:not(.dark) .price-badge {
-  background: #f2f2f2;
-  color: #111;
-}
+
+

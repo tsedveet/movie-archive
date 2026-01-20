@@ -21,6 +21,9 @@ fetch("data/movies.json")
           <h1>${movie.title}</h1>
           <p class="meta">${movie.year} · ${movie.genre.join(", ")}</p>
           <p>${movie.description}</p>
+          ${movie.explain ? `<p><b>Анхаар:</b> ${movie.explain}</p>` : ``}
+
+          ${movie.telegram_address ? `<a  href="${movie.telegram_address}" target="_blank" class="detail-trailer-btn primary">ᯓ➤ Telegram дагах</a>` : ``}
 
           <div class="detail-actions">
             <div class="detail-actions">
@@ -33,9 +36,9 @@ fetch("data/movies.json")
   
           </div>
 
-          ${movie.explain ? `<p>${movie.explain}</p>` : ``}
           
-          ${movie.telegram_address ? `<a href="${movie.telegram_address}" target="_blank" class="detail-trailer-btn primary"> ▶ Telegram дагах </a>` : ``}
+          
+          
 
           <div id="seasons" class="seasons-block"></div>
           
