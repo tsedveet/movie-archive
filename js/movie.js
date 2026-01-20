@@ -35,11 +35,7 @@ fetch("data/movies.json")
             ${movie.watch ? `<a href="${movie.watch}" target="_blank" class="detail-trailer-btn primary"> ▶ Кино үзэх </a>` : ``}
   
           </div>
-
           
-          
-          
-
           <div id="seasons" class="seasons-block"></div>
           
         </div>
