@@ -3,9 +3,9 @@ const movieId = Number(params.get("id"));
 const container = document.getElementById("movie");
 
 fetch("data/movies.json")
-  .then(res => res.json())
-  .then(movies => {
-    const movie = movies.find(m => m.id === movieId);
+  .then((res) => res.json())
+  .then((movies) => {
+    const movie = movies.find((m) => m.id === movieId);
 
     if (!movie) {
       container.innerHTML = "<p>Movie not found</p>";
@@ -23,23 +23,22 @@ fetch("data/movies.json")
           <p>${movie.description}</p>
 
           <div class="detail-actions">
-  ${
-    movie.trailer
-      ? `<a href="${movie.trailer}" target="_blank" class="detail-trailer-btn">
-           ▶ Трейлер үзэх
-         </a>`
-      : ``
-  }
-  ${
-    movie.watch
-      ? `<a href="${movie.watch}" target="_blank" class="detail-trailer-btn primary">
-           ▶ Кино үзэх
-         </a>`
-      : ``
-  }
-</div>
+            <div class="detail-actions">
+                ${movie.price ? `<span class="price-badge">Үнэ: ${movie.price}</span>` : ``}
+            </div>
+
+            ${movie.trailer ? `<a href="${movie.trailer}" target="_blank" class="detail-trailer-btn"> ▶ Трейлер үзэх </a>` : ``}
+
+            ${movie.watch ? `<a href="${movie.watch}" target="_blank" class="detail-trailer-btn primary"> ▶ Кино үзэх </a>` : ``}
+  
+          </div>
+
+          ${movie.explain ? `<p>${movie.explain}</p>` : ``}
+          
+          ${movie.telegram_address ? `<a href="${movie.telegram_address}" target="_blank" class="detail-trailer-btn primary"> ▶ Telegram дагах </a>` : ``}
 
           <div id="seasons" class="seasons-block"></div>
+          
         </div>
       </div>
     `;
@@ -52,7 +51,7 @@ fetch("data/movies.json")
         <h2 class="season-title">Seasons</h2>
         ${movie.seasons
           .map(
-            s => `
+            (s) => `
             <div class="season">
               <button class="season-header">
                 Season ${s.season}
@@ -63,20 +62,20 @@ fetch("data/movies.json")
                 <ul>
                   ${s.episodes
                     .map(
-                      e => `
+                      (e) => `
                       <li class="episode">
                         <span>E${e.episode} · ${e.title}</span>
                         <a href="${e.watch}" target="_blank" class="episode-btn">
                           ▶ Үзэх
                         </a>
                       </li>
-                    `
+                    `,
                     )
                     .join("")}
                 </ul>
               </div>
             </div>
-          `
+          `,
           )
           .join("")}
       `;
@@ -86,14 +85,14 @@ fetch("data/movies.json")
   });
 
 function initAccordion() {
-  document.querySelectorAll(".season-header").forEach(header => {
+  document.querySelectorAll(".season-header").forEach((header) => {
     header.addEventListener("click", () => {
       const season = header.parentElement;
       const content = season.querySelector(".season-content");
 
       const isOpen = season.classList.contains("open");
 
-      document.querySelectorAll(".season").forEach(s => {
+      document.querySelectorAll(".season").forEach((s) => {
         s.classList.remove("open");
         s.querySelector(".season-content").style.maxHeight = null;
       });

@@ -8,22 +8,26 @@ let currentPage = 1;
 let filteredMovies = [];
 
 fetch("data/movies.json")
-  .then(res => res.json())
-  .then(data => {
+  .then((res) => res.json())
+  .then((data) => {
+    // 🔥 ЭНЭ Л ХАМГИЙН ЧУХАЛ МӨР
+    data.sort((a, b) => new Date(b.createdAt) - new Date(a.createdAt));
+
     allMovies = data;
     filteredMovies = data;
+
     setupGenres(data);
-    render();
+    render(); // зөвхөн ЭНЭ
   });
 
 function setupGenres(movies) {
   const genres = new Set();
 
-  movies.forEach(movie => {
-    movie.genre.forEach(g => genres.add(g));
+  movies.forEach((movie) => {
+    movie.genre.forEach((g) => genres.add(g));
   });
 
-  genres.forEach(g => {
+  genres.forEach((g) => {
     const option = document.createElement("option");
     option.value = g;
     option.textContent = g;
@@ -75,11 +79,10 @@ function renderPagination() {
   container.appendChild(next);
 }
 
-
 function renderMovies(list) {
   moviesContainer.innerHTML = "";
 
-  list.forEach(movie => {
+  list.forEach((movie) => {
     const card = document.createElement("a");
     card.className = "movie-card";
     card.href = `movie.html?id=${movie.id}`;
@@ -89,7 +92,7 @@ function renderMovies(list) {
       <div class="info">
         <h3>${movie.title}</h3>
         <div class="meta">${movie.year} · ${movie.genre.join(", ")}</div>
-        <p>${movie.description}</p>
+        
         
       </div>
     `;
@@ -102,13 +105,13 @@ function filterMovies() {
   const search = searchInput.value.toLowerCase();
   const genre = genreSelect.value;
 
-  filteredMovies = allMovies.filter(movie =>
-    movie.title.toLowerCase().includes(search)
+  filteredMovies = allMovies.filter((movie) =>
+    movie.title.toLowerCase().includes(search),
   );
 
   if (genre !== "all") {
-    filteredMovies = filteredMovies.filter(movie =>
-      movie.genre.includes(genre)
+    filteredMovies = filteredMovies.filter((movie) =>
+      movie.genre.includes(genre),
     );
   }
 

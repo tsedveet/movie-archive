@@ -1,6 +1,7 @@
 [
   {
     "id": 1,
+    "createdAt": "2025-01-18T18:42:00",
     "title": "Inception",
     "year": 2010,
     "genre": ["Sci-Fi", "Thriller"],
@@ -11,6 +12,7 @@
   },
   {
     "id": 2,
+    "createdAt": "2025-01-18T18:50:00",
     "title": "Interstellar",
     "year": 2014,
     "genre": ["Sci-Fi", "Drama"],
@@ -21,6 +23,7 @@
   },
   {
     "id": 3,
+    "createdAt": "2025-01-19T09:42:00",
     "title": "Joker",
     "year": 2019,
     "genre": ["Drama", "Crime"],
@@ -31,6 +34,7 @@
   },
   {
     "id": 4,
+    "createdAt": "2025-01-19T18:42:00",
     "title": "Now You See Me",
     "year": 2025,
     "genre": ["Drama", "Crime"],
@@ -41,6 +45,7 @@
   },
   {
     "id": 5,
+    "createdAt": "2025-01-20T13:42:00",
     "title": "Mortal Kombat",
     "year": 2021,
     "genre": ["Action", "Crime"],
@@ -50,220 +55,224 @@
     "watch": "https://t.me/c/3644144106/15"
   },
   {
-  "id": 6,
-  "title": "Friends",
-  "year": 1994,
-  "type": "series",
-  "genre": ["TV series", "Comedy"],
-  "poster": "posters/friends.webp",
-  "description": "The personal and professional lives of six friends living in the Manhattan borough of New York City.",
-  "trailer": "https://www.imdb.com/video/vi794543641/?playlistId=tt0108778&ref_=tt_ov_ov_vi",
-  "seasons": [
-    {
-      "season": 1,
-      "episodes": [
-        {
-          "episode": 1,
-          "title": "The One Where Monica Gets a Roommate",
-          "watch": "https://example.com/friends-s1-e1"
-        },
-        {
-          "episode": 2,
-          "title": "The One with the Sonogram at the End",
-          "watch": "https://example.com/friends-s1-e2"
-        },
-        {
-          "episode": 3,
-          "title": "The One With The Thumb",
-          "watch": "https://example.com/friends-s1-e2"
-        },
-        {
-          "episode": 4,
-          "title": "The One With George Stephanopoulos",
-          "watch": "https://example.com/friends-s1-e2"
-        },
-        {
-          "episode": 5,
-          "title": "The One with the East German Laundry Detergent",
-          "watch": "https://example.com/friends-s1-e2"
-        },
-        {
-          "episode": 6,
-          "title": "The One with the Butt",
-          "watch": "https://example.com/friends-s1-e2"
-        },
-        {
-          "episode": 7,
-          "title": "The One with the Blackout",
-          "watch": "https://example.com/friends-s1-e2"
-        },
-        {
-          "episode": 8,
-          "title": "The One Where Nana Dies Twice",
-          "watch": "https://example.com/friends-s1-e2"
-        },
-        {
-          "episode": 9,
-          "title": "The One Where Underdog Gets Away",
-          "watch": "https://example.com/friends-s1-e2"
-        },
-        {
-          "episode": 10,
-          "title": "The One with the Monkey",
-          "watch": "https://example.com/friends-s1-e2"
-        },
-        {
-          "episode": 11,
-          "title": "The One with Mrs. Bing",
-          "watch": "https://example.com/friends-s1-e2"
-        },
-        {
-          "episode": 12,
-          "title": "The One with the Dozen Lasagnas",
-          "watch": "https://example.com/friends-s1-e2"
-        },
-        {
-          "episode": 13,
-          "title": "The One with the Boobies",
-          "watch": "https://example.com/friends-s1-e2"
-        },
-        {
-          "episode": 14,
-          "title": "The One with the Candy Hearts",
-          "watch": "https://example.com/friends-s1-e2"
-        },
-        {
-          "episode": 15,
-          "title": "The One with the Stoned Guy",
-          "watch": "https://example.com/friends-s1-e2"
-        },
-        {
-          "episode": 16,
-          "title": "The One with Two Parts: Part 1",
-          "watch": "https://example.com/friends-s1-e2"
-        },
-        {
-          "episode": 17,
-          "title": "The One with Two Parts: Part 2",
-          "watch": "https://example.com/friends-s1-e2"
-        },
-        {
-          "episode": 18,
-          "title": "The One with All the Poker",
-          "watch": "https://example.com/friends-s1-e2"
-        },
-        {
-          "episode": 19,
-          "title": "The One Where the Monkey Gets Away",
-          "watch": "https://example.com/friends-s1-e2"
-        },
-        {
-          "episode": 20,
-          "title": "The One with the Evil Orthodontist",
-          "watch": "https://example.com/friends-s1-e2"
-        },
-        {
-          "episode": 21,
-          "title": "The One with the Fake Monica",
-          "watch": "https://example.com/friends-s1-e2"
-        },
-        {
-          "episode": 22,
-          "title": "The One with the Ick Factor",
-          "watch": "https://example.com/friends-s1-e2"
-        },
-        {
-          "episode": 23,
-          "title": "The One with the Birth",
-          "watch": "https://example.com/friends-s1-e2"
-        },
-        {
-          "episode": 24,
-          "title": "The One Where Rachel Finds Out",
-          "watch": "https://example.com/friends-s1-e2"
-        }
-      ]
-    },
-    {
-      "season": 2,
-      "episodes": [
-        {
-          "episode": 1,
-          "title": "The One with Ross's New Girlfriend",
-          "watch": "https://example.com/friends-s2-e1"
-        },
-        {
-          "episode": 2,
-          "title": "The One with Ross's New Girlfriend",
-          "watch": "https://example.com/friends-s2-e1"
-        },
-        {
-          "episode": 3,
-          "title": "The One with Ross's New Girlfriend",
-          "watch": "https://example.com/friends-s2-e1"
-        },
-        {
-          "episode": 4,
-          "title": "The One with Ross's New Girlfriend",
-          "watch": "https://example.com/friends-s2-e1"
-        },
-        {
-          "episode": 5,
-          "title": "The One with Ross's New Girlfriend",
-          "watch": "https://example.com/friends-s2-e1"
-        },
-        {
-          "episode": 6,
-          "title": "The One with Ross's New Girlfriend",
-          "watch": "https://example.com/friends-s2-e1"
-        },
-        {
-          "episode": 7,
-          "title": "The One with Ross's New Girlfriend",
-          "watch": "https://example.com/friends-s2-e1"
-        },
-        {
-          "episode": 8,
-          "title": "The One with Ross's New Girlfriend",
-          "watch": "https://example.com/friends-s2-e1"
-        },
-        {
-          "episode": 9,
-          "title": "The One with Ross's New Girlfriend",
-          "watch": "https://example.com/friends-s2-e1"
-        },
-        {
-          "episode": 10,
-          "title": "The One with Ross's New Girlfriend",
-          "watch": "https://example.com/friends-s2-e1"
-        },
-        {
-          "episode": 11,
-          "title": "The One with Ross's New Girlfriend",
-          "watch": "https://example.com/friends-s2-e1"
-        },
-        {
-          "episode": 12,
-          "title": "The One with Ross's New Girlfriend",
-          "watch": "https://example.com/friends-s2-e1"
-        },
-        {
-          "episode": 13,
-          "title": "The One with Ross's New Girlfriend",
-          "watch": "https://example.com/friends-s2-e1"
-        },
-        {
-          "episode": 14,
-          "title": "The One with Ross's New Girlfriend",
-          "watch": "https://example.com/friends-s2-e1"
-        },
-        {
-          "episode": 15,
-          "title": "The One with Ross's New Girlfriend",
-          "watch": "https://example.com/friends-s2-e1"
-        }
-      ]
-    }
-  ]
-}
+    "id": 6,
+    "createdAt": "2025-01-20T18:42:00",
+    "price": "7000₮",
+    "explain": "Friends цувралыг үзэхын тулд бидэнтэй холбогдож, төлбөрөө төлсөний дараа доорх товчийг дарж манай Telegram сувагт нэгдсэнээр киногоо үзэх болотжтой болох юм.",
+    "telegram_address": "https://t.me/+65tSzMT7A_0xMDk1",
+    "title": "Friends [English Subtitles]",
+    "year": 1994,
+    "type": "series",
+    "genre": ["TV series", "Comedy"],
+    "poster": "posters/friends.webp",
+    "description": "The personal and professional lives of six friends living in the Manhattan borough of New York City.",
+    "trailer": "https://www.imdb.com/video/vi794543641/?playlistId=tt0108778&ref_=tt_ov_ov_vi",
+    "seasons": [
+      {
+        "season": 1,
+        "episodes": [
+          {
+            "episode": 1,
+            "title": "The One Where Monica Gets a Roommate",
+            "watch": "https://example.com/friends-s1-e1"
+          },
+          {
+            "episode": 2,
+            "title": "The One with the Sonogram at the End",
+            "watch": "https://example.com/friends-s1-e2"
+          },
+          {
+            "episode": 3,
+            "title": "The One With The Thumb",
+            "watch": "https://example.com/friends-s1-e2"
+          },
+          {
+            "episode": 4,
+            "title": "The One With George Stephanopoulos",
+            "watch": "https://example.com/friends-s1-e2"
+          },
+          {
+            "episode": 5,
+            "title": "The One with the East German Laundry Detergent",
+            "watch": "https://example.com/friends-s1-e2"
+          },
+          {
+            "episode": 6,
+            "title": "The One with the Butt",
+            "watch": "https://example.com/friends-s1-e2"
+          },
+          {
+            "episode": 7,
+            "title": "The One with the Blackout",
+            "watch": "https://example.com/friends-s1-e2"
+          },
+          {
+            "episode": 8,
+            "title": "The One Where Nana Dies Twice",
+            "watch": "https://example.com/friends-s1-e2"
+          },
+          {
+            "episode": 9,
+            "title": "The One Where Underdog Gets Away",
+            "watch": "https://example.com/friends-s1-e2"
+          },
+          {
+            "episode": 10,
+            "title": "The One with the Monkey",
+            "watch": "https://example.com/friends-s1-e2"
+          },
+          {
+            "episode": 11,
+            "title": "The One with Mrs. Bing",
+            "watch": "https://example.com/friends-s1-e2"
+          },
+          {
+            "episode": 12,
+            "title": "The One with the Dozen Lasagnas",
+            "watch": "https://example.com/friends-s1-e2"
+          },
+          {
+            "episode": 13,
+            "title": "The One with the Boobies",
+            "watch": "https://example.com/friends-s1-e2"
+          },
+          {
+            "episode": 14,
+            "title": "The One with the Candy Hearts",
+            "watch": "https://example.com/friends-s1-e2"
+          },
+          {
+            "episode": 15,
+            "title": "The One with the Stoned Guy",
+            "watch": "https://example.com/friends-s1-e2"
+          },
+          {
+            "episode": 16,
+            "title": "The One with Two Parts: Part 1",
+            "watch": "https://example.com/friends-s1-e2"
+          },
+          {
+            "episode": 17,
+            "title": "The One with Two Parts: Part 2",
+            "watch": "https://example.com/friends-s1-e2"
+          },
+          {
+            "episode": 18,
+            "title": "The One with All the Poker",
+            "watch": "https://example.com/friends-s1-e2"
+          },
+          {
+            "episode": 19,
+            "title": "The One Where the Monkey Gets Away",
+            "watch": "https://example.com/friends-s1-e2"
+          },
+          {
+            "episode": 20,
+            "title": "The One with the Evil Orthodontist",
+            "watch": "https://example.com/friends-s1-e2"
+          },
+          {
+            "episode": 21,
+            "title": "The One with the Fake Monica",
+            "watch": "https://example.com/friends-s1-e2"
+          },
+          {
+            "episode": 22,
+            "title": "The One with the Ick Factor",
+            "watch": "https://example.com/friends-s1-e2"
+          },
+          {
+            "episode": 23,
+            "title": "The One with the Birth",
+            "watch": "https://example.com/friends-s1-e2"
+          },
+          {
+            "episode": 24,
+            "title": "The One Where Rachel Finds Out",
+            "watch": "https://example.com/friends-s1-e2"
+          }
+        ]
+      },
+      {
+        "season": 2,
+        "episodes": [
+          {
+            "episode": 1,
+            "title": "The One with Ross's New Girlfriend",
+            "watch": "https://example.com/friends-s2-e1"
+          },
+          {
+            "episode": 2,
+            "title": "The One with Ross's New Girlfriend",
+            "watch": "https://example.com/friends-s2-e1"
+          },
+          {
+            "episode": 3,
+            "title": "The One with Ross's New Girlfriend",
+            "watch": "https://example.com/friends-s2-e1"
+          },
+          {
+            "episode": 4,
+            "title": "The One with Ross's New Girlfriend",
+            "watch": "https://example.com/friends-s2-e1"
+          },
+          {
+            "episode": 5,
+            "title": "The One with Ross's New Girlfriend",
+            "watch": "https://example.com/friends-s2-e1"
+          },
+          {
+            "episode": 6,
+            "title": "The One with Ross's New Girlfriend",
+            "watch": "https://example.com/friends-s2-e1"
+          },
+          {
+            "episode": 7,
+            "title": "The One with Ross's New Girlfriend",
+            "watch": "https://example.com/friends-s2-e1"
+          },
+          {
+            "episode": 8,
+            "title": "The One with Ross's New Girlfriend",
+            "watch": "https://example.com/friends-s2-e1"
+          },
+          {
+            "episode": 9,
+            "title": "The One with Ross's New Girlfriend",
+            "watch": "https://example.com/friends-s2-e1"
+          },
+          {
+            "episode": 10,
+            "title": "The One with Ross's New Girlfriend",
+            "watch": "https://example.com/friends-s2-e1"
+          },
+          {
+            "episode": 11,
+            "title": "The One with Ross's New Girlfriend",
+            "watch": "https://example.com/friends-s2-e1"
+          },
+          {
+            "episode": 12,
+            "title": "The One with Ross's New Girlfriend",
+            "watch": "https://example.com/friends-s2-e1"
+          },
+          {
+            "episode": 13,
+            "title": "The One with Ross's New Girlfriend",
+            "watch": "https://example.com/friends-s2-e1"
+          },
+          {
+            "episode": 14,
+            "title": "The One with Ross's New Girlfriend",
+            "watch": "https://example.com/friends-s2-e1"
+          },
+          {
+            "episode": 15,
+            "title": "The One with Ross's New Girlfriend",
+            "watch": "https://example.com/friends-s2-e1"
+          }
+        ]
+      }
+    ]
+  }
 ]

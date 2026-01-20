@@ -446,9 +446,11 @@ body.dark .seasons-block {
 .detail-actions {
   margin-top: 16px;
   display: flex;
-  gap: 12px;
+  align-items: center;
+  gap: 14px;
   flex-wrap: wrap;
 }
+
 
 .maintenance-banner {
   position: fixed;
@@ -486,4 +488,23 @@ body.dark .seasons-block {
 body.dark .maintenance-banner {
   background: #2a1f00;
   color: #ffe08a;
+}
+
+.detail-meta {
+  margin: 12px 0;
+}
+
+.price-badge {
+  display: inline-block;
+  padding: 6px 12px;
+  font-size: 16px;
+  border-radius: 999px;
+  background: rgba(255,255,255,0.08);
+  color: #e6e6e6;
+}
+
+/* Light mode */
+body:not(.dark) .price-badge {
+  background: #f2f2f2;
+  color: #111;
 }
