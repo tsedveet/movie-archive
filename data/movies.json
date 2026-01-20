@@ -6,7 +6,8 @@
     "genre": ["Sci-Fi", "Thriller"],
     "poster": "posters/inception.jpg",
     "description": "A thief who steals corporate secrets through dream-sharing technology.",
-    "trailer": "https://www.youtube.com/watch?v=YoHD9XEInc0"
+    "trailer": "https://www.youtube.com/watch?v=YoHD9XEInc0",
+    "watch": "https://t.me/c/3644144106/15"
   },
   {
     "id": 2,
@@ -15,7 +16,8 @@
     "genre": ["Sci-Fi", "Drama"],
     "poster": "posters/interstellar.jpg",
     "description": "A team of explorers travel through a wormhole in space.",
-    "trailer": "https://www.youtube.com/watch?v=YoHD9XEInc0"
+    "trailer": "https://www.youtube.com/watch?v=YoHD9XEInc0",
+    "watch": "https://t.me/c/3644144106/15"
   },
   {
     "id": 3,
@@ -24,7 +26,8 @@
     "genre": ["Drama", "Crime"],
     "poster": "posters/joker.jpg",
     "description": "A gritty character study of Arthur Fleck.",
-    "trailer": "https://www.youtube.com/watch?v=YoHD9XEInc0"
+    "trailer": "https://www.youtube.com/watch?v=YoHD9XEInc0",
+    "watch": "https://t.me/c/3644144106/15"
   },
   {
     "id": 4,
@@ -33,7 +36,8 @@
     "genre": ["Drama", "Crime"],
     "poster": "posters/Now.jpg",
     "description": "A gritty character study of Arthur Fleck.",
-    "trailer": "https://t.me/c/3644144106/15"
+    "trailer": "https://t.me/c/3644144106/15",
+    "watch": "https://t.me/c/3644144106/15"
   },
   {
     "id": 5,
@@ -42,7 +46,8 @@
     "genre": ["Action", "Crime"],
     "poster": "posters/mortal.jpg",
     "description": "A gritty character study of Arthur Fleck.",
-    "trailer": "https://t.me/c/3644144106/15"
+    "trailer": "https://t.me/c/3644144106/15",
+    "watch": "https://t.me/c/3644144106/15"
   },
   {
   "id": 6,
@@ -52,7 +57,7 @@
   "genre": ["TV series", "Comedy"],
   "poster": "posters/friends.webp",
   "description": "The personal and professional lives of six friends living in the Manhattan borough of New York City.",
-  "series_trailer": "https://www.imdb.com/video/vi794543641/?playlistId=tt0108778&ref_=tt_ov_ov_vi",
+  "trailer": "https://www.imdb.com/video/vi794543641/?playlistId=tt0108778&ref_=tt_ov_ov_vi",
   "seasons": [
     {
       "season": 1,

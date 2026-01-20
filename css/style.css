@@ -432,3 +432,58 @@ body.dark .detail-back-btn:hover {
 .season.open .chevron {
   transform: rotate(180deg);
 }
+
+.seasons-block {
+  margin-top: 40px;
+  padding-top: 24px;
+  border-top: 1px solid rgba(0,0,0,0.08);
+}
+
+body.dark .seasons-block {
+  border-top: 1px solid rgba(255,255,255,0.12);
+}
+
+.detail-actions {
+  margin-top: 16px;
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.maintenance-banner {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  z-index: 9999;
+
+  background: #fff3cd;
+  color: #664d03;
+  padding: 10px 16px;
+
+  font-size: 14px;
+  text-align: center;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+}
+
+.maintenance-banner .close-banner {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+  opacity: 0.7;
+}
+
+.maintenance-banner .close-banner:hover {
+  opacity: 1;
+}
+
+/* Dark mode */
+body.dark .maintenance-banner {
+  background: #2a1f00;
+  color: #ffe08a;
+}

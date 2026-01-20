@@ -24,3 +24,12 @@ if (logo) {
     window.location.href = "index.html";
   });
 }
+
+const banner = document.getElementById("maintenance-banner");
+const closeBtn = banner?.querySelector(".close-banner");
+
+if (closeBtn) {
+  closeBtn.addEventListener("click", () => {
+    banner.style.display = "none";
+  });
+}
