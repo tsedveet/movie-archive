@@ -493,11 +493,10 @@ body.dark .seasons-block {
 }
 
 body:not(.dark) .price-badge {
-  background: #f5f7fa;          /* light gray */
-  color: #111;                  /* dark text */
-  border: 1px solid #d0d7de;    /* subtle border */
+  background: #f5f7fa; /* light gray */
+  color: #111; /* dark text */
+  border: 1px solid #d0d7de; /* subtle border */
 }
-
 
 /* Dark mode */
 body.dark .maintenance-banner {
@@ -518,5 +517,58 @@ body.dark .maintenance-banner {
   color: #e6e6e6;
 }
 
+.contact-fab {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  z-index: 9999;
 
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-size: 22px;
+  text-decoration: none;
+
+  background: #229ed9; /* Telegram blue */
+  color: #fff;
+
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.contact-fab:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 14px 30px rgba(0, 0, 0, 0.35);
+}
+
+body:not(.dark) .contact-fab {
+  background: #111;
+}
+
+.contact-fab::after {
+  content: "Бидэнтэй холбогдох";
+  position: absolute;
+  right: 70px;
+  white-space: nowrap;
+
+  background: #111;
+  color: #fff;
+  padding: 6px 10px;
+  border-radius: 6px;
+  font-size: 13px;
+
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.2s ease;
+}
+
+.contact-fab:hover::after {
+  opacity: 1;
+}

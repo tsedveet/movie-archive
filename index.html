@@ -1,50 +1,54 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <title>Movie-Archive</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <link rel="stylesheet" href="css/style.css" />
-</head>
-<body>
-<div id="maintenance-banner" class="maintenance-banner">
-  🚧 Сайт одоогоор засвартай байна!
-  <button class="close-banner" aria-label="Close">✕</button>
-</div>
-<header class="header">
-  <h1 class="logo" id="homeLogo">
-  🎬 Movie Archive
-</h1>
-  <nav class="nav">
-  <a href="about.html" class="active">Бидний тухай</a>
-</nav>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Movie-Archive</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div id="maintenance-banner" class="maintenance-banner">
+      🚧 Сайт одоогоор засвартай байна!
+      <button class="close-banner" aria-label="Close">✕</button>
+    </div>
+    <header class="header">
+      <h1 class="logo" id="homeLogo">🎬 Movie Archive</h1>
+      <nav class="nav">
+        <a href="about.html" class="active">Бидний тухай</a>
+      </nav>
 
-  <div class="controls">
-    <input
-      type="text"
-      id="search"
-      placeholder="Кино нэрээр хайх..."
-    />
-    <select id="genre">
-      <option value="all">Бүх төрөл</option>
-    </select>
-  </div>
+      <div class="controls">
+        <input type="text" id="search" placeholder="Кино нэрээр хайх..." />
+        <select id="genre">
+          <option value="all">Бүх төрөл</option>
+        </select>
+      </div>
 
-  <button id="themeToggle" class="theme-toggle" aria-label="Toggle dark mode">
-  🌙
-</button>
+      <button
+        id="themeToggle"
+        class="theme-toggle"
+        aria-label="Toggle dark mode"
+      >
+        🌙
+      </button>
+    </header>
 
-</header>
+    <main>
+      <div id="movies" class="grid"></div>
+      <div id="pagination" class="pagination"></div>
+    </main>
 
-<main>
-  <div id="movies" class="grid"></div>
-  <div id="pagination" class="pagination"></div>
-</main>
+    <footer>Copyright© Movie Archive</footer>
 
-<footer>Copyright© Movie Archive</footer>
-
-<script src="js/app.js"></script>
-<script src="js/theme.js"></script>
-
-</body>
+    <script src="js/app.js"></script>
+    <script src="js/theme.js"></script>
+    <a
+      href="https://t.me/your_channel"
+      target="_blank"
+      class="contact-fab"
+      aria-label="Бидэнтэй холбогдох"
+    >
+      💬
+    </a>
+  </body>
 </html>
