@@ -1,44 +1,5 @@
 [
   {
-    "id": 1,
-    "createdAt": "2025-01-18T18:42:00",
-    "explain": "Telegram-д нэгдсэнээр киногоо үзэх болотжтой болох юм.",
-    "telegram_address": "https://t.me/+fHPHMb1ddKEzNjNl",
-    "title": "Inception",
-    "year": 2010,
-    "genre": ["Sci-Fi", "Thriller"],
-    "poster": "posters/inception.jpg",
-    "description": "A thief who steals corporate secrets through dream-sharing technology.",
-    "trailer": "https://www.youtube.com/watch?v=YoHD9XEInc0",
-    "watch": "https://t.me/c/3644144106/15"
-  },
-  {
-    "id": 2,
-    "createdAt": "2025-01-18T18:50:00",
-    "explain": "Telegram-д нэгдсэнээр киногоо үзэх болотжтой болох юм.",
-    "telegram_address": "https://t.me/+fHPHMb1ddKEzNjNl",
-    "title": "Interstellar",
-    "year": 2014,
-    "genre": ["Sci-Fi", "Drama"],
-    "poster": "posters/interstellar.jpg",
-    "description": "A team of explorers travel through a wormhole in space.",
-    "trailer": "https://www.youtube.com/watch?v=YoHD9XEInc0",
-    "watch": "https://t.me/c/3644144106/15"
-  },
-  {
-    "id": 3,
-    "createdAt": "2025-01-19T09:42:00",
-    "explain": "Telegram-д нэгдсэнээр киногоо үзэх болотжтой болох юм.",
-    "telegram_address": "https://t.me/+fHPHMb1ddKEzNjNl",
-    "title": "Joker",
-    "year": 2019,
-    "genre": ["Drama", "Crime"],
-    "poster": "posters/joker.jpg",
-    "description": "A gritty character study of Arthur Fleck.",
-    "trailer": "https://www.youtube.com/watch?v=YoHD9XEInc0",
-    "watch": "https://t.me/c/3644144106/15"
-  },
-  {
     "id": 4,
     "createdAt": "2025-01-19T18:42:00",
     "explain": "Telegram-д нэгдсэнээр киногоо үзэх болотжтой болох юм.",
@@ -47,19 +8,6 @@
     "year": 2025,
     "genre": ["Drama", "Crime"],
     "poster": "posters/Now.jpg",
-    "description": "A gritty character study of Arthur Fleck.",
-    "trailer": "https://t.me/c/3644144106/15",
-    "watch": "https://t.me/c/3644144106/15"
-  },
-  {
-    "id": 5,
-    "createdAt": "2025-01-20T13:42:00",
-    "explain": "Telegram-д нэгдсэнээр киногоо үзэх болотжтой болох юм.",
-    "telegram_address": "https://t.me/+fHPHMb1ddKEzNjNl",
-    "title": "Mortal Kombat",
-    "year": 2021,
-    "genre": ["Action", "Crime"],
-    "poster": "posters/mortal.jpg",
     "description": "A gritty character study of Arthur Fleck.",
     "trailer": "https://t.me/c/3644144106/15",
     "watch": "https://t.me/c/3644144106/15"
