@@ -8,7 +8,7 @@
     "year": 2025,
     "genre": ["Drama", "Crime"],
     "poster": "posters/Now.jpg",
-    "description": "A gritty character study of Arthur Fleck.",
+    "description": "Дөрвөн Морьтон дахин нэгдэж, залуу үеийн шинэ илбэчидтэй хүч хавсран, гэмт хэрэгтнүүдэд зориулсан дэлхий даяарх мөнгө угаах схемийг илрүүлэхийн тулд алмазын өв залгамжлагч бүсгүйн эсрэг ажиллагаа явуулна.",
     "trailer": "https://t.me/c/3644144106/15",
     "watch": "https://t.me/c/3644144106/15"
   },
@@ -21,7 +21,7 @@
     "year": 2025,
     "genre": ["Survival", "Action", "Adventure", "Sci-Fi", "Thriller"],
     "poster": "posters/running-man.jpg",
-    "description": "A man joins a game show in which contestants, allowed to flee anywhere in the world, are pursued by \"hunters\" hired to kill them.",
+    "description": "Дэлхийн хаана ч зугтах боломж олгодог, харин оронд нь тэднийг алах үүрэгтэй “ангуучид” мөрдөн хөөх тоглоомын шоунд нэгэн эр оролцоно.",
     "trailer": "https://www.youtube.com/watch?v=KD18ddeFuyM",
     "watch": "https://t.me/c/3644144106/14"
   },
@@ -169,77 +169,122 @@
         "episodes": [
           {
             "episode": 1,
-            "title": "The One with Ross's New Girlfriend",
+            "title": "The One Where Monica Gets a Roommate",
             "watch": "https://example.com/friends-s2-e1"
           },
           {
             "episode": 2,
-            "title": "The One with Ross's New Girlfriend",
+            "title": "The One with the Sonogram at the End",
             "watch": "https://example.com/friends-s2-e1"
           },
           {
             "episode": 3,
-            "title": "The One with Ross's New Girlfriend",
+            "title": "The One with the Thumb",
             "watch": "https://example.com/friends-s2-e1"
           },
           {
             "episode": 4,
-            "title": "The One with Ross's New Girlfriend",
+            "title": "The One with George Stephanopoulos",
             "watch": "https://example.com/friends-s2-e1"
           },
           {
             "episode": 5,
-            "title": "The One with Ross's New Girlfriend",
+            "title": "The One with the East German Laundry Detergent",
             "watch": "https://example.com/friends-s2-e1"
           },
           {
             "episode": 6,
-            "title": "The One with Ross's New Girlfriend",
+            "title": "The One with the Butt",
             "watch": "https://example.com/friends-s2-e1"
           },
           {
             "episode": 7,
-            "title": "The One with Ross's New Girlfriend",
+            "title": "The One with the Blackout",
             "watch": "https://example.com/friends-s2-e1"
           },
           {
             "episode": 8,
-            "title": "The One with Ross's New Girlfriend",
+            "title": "The One Where Nana Dies Twice",
             "watch": "https://example.com/friends-s2-e1"
           },
           {
             "episode": 9,
-            "title": "The One with Ross's New Girlfriend",
+            "title": "The One Where Underdog Gets Away",
             "watch": "https://example.com/friends-s2-e1"
           },
           {
             "episode": 10,
-            "title": "The One with Ross's New Girlfriend",
+            "title": "The One with the Monkey",
             "watch": "https://example.com/friends-s2-e1"
           },
           {
             "episode": 11,
-            "title": "The One with Ross's New Girlfriend",
+            "title": "The One with Mrs. Bing",
             "watch": "https://example.com/friends-s2-e1"
           },
           {
             "episode": 12,
-            "title": "The One with Ross's New Girlfriend",
+            "title": "The One with the Dozen Lasagnas",
             "watch": "https://example.com/friends-s2-e1"
           },
           {
             "episode": 13,
-            "title": "The One with Ross's New Girlfriend",
+            "title": "The One with the Boobies",
             "watch": "https://example.com/friends-s2-e1"
           },
           {
             "episode": 14,
-            "title": "The One with Ross's New Girlfriend",
+            "title": "The One with the Candy Hearts",
             "watch": "https://example.com/friends-s2-e1"
           },
           {
             "episode": 15,
-            "title": "The One with Ross's New Girlfriend",
+            "title": "The One with the Stoned Guy",
+            "watch": "https://example.com/friends-s2-e1"
+          },
+          {
+            "episode": 16,
+            "title": "The One with Two Parts: Part 1",
+            "watch": "https://example.com/friends-s2-e1"
+          },
+          {
+            "episode": 17,
+            "title": "The One with Two Parts: Part 2",
+            "watch": "https://example.com/friends-s2-e1"
+          },
+          {
+            "episode": 18,
+            "title": "The One with All the Poker",
+            "watch": "https://example.com/friends-s2-e1"
+          },
+          {
+            "episode": 19,
+            "title": "The One Where the Monkey Gets Away",
+            "watch": "https://example.com/friends-s2-e1"
+          },
+          {
+            "episode": 20,
+            "title": "The One with the Evil Orthodontist",
+            "watch": "https://example.com/friends-s2-e1"
+          },
+          {
+            "episode": 21,
+            "title": "The One with the Fake Monica",
+            "watch": "https://example.com/friends-s2-e1"
+          },
+          {
+            "episode": 22,
+            "title": "The One with the Ick Factor",
+            "watch": "https://example.com/friends-s2-e1"
+          },
+          {
+            "episode": 23,
+            "title": "The One with the Birth",
+            "watch": "https://example.com/friends-s2-e1"
+          },
+          {
+            "episode": 24,
+            "title": "The One Where Rachel Finds Out",
             "watch": "https://example.com/friends-s2-e1"
           }
         ]
@@ -249,7 +294,127 @@
         "episodes": [
           {
             "episode": 1,
-            "title": "The One with Ross's New Girlfriend",
+            "title": "The One with the Princess Leia Fantasy",
+            "watch": "https://example.com/friends-s2-e1"
+          },
+          {
+            "episode": 2,
+            "title": "The One Where No One's Ready",
+            "watch": "https://example.com/friends-s2-e1"
+          },
+          {
+            "episode": 3,
+            "title": "The One with the Jam",
+            "watch": "https://example.com/friends-s2-e1"
+          },
+          {
+            "episode": 4,
+            "title": "The One with the Metaphorical Tunnel",
+            "watch": "https://example.com/friends-s2-e1"
+          },
+          {
+            "episode": 5,
+            "title": "The One with Frank Jr.",
+            "watch": "https://example.com/friends-s2-e1"
+          },
+          {
+            "episode": 6,
+            "title": "The One with the Flashback",
+            "watch": "https://example.com/friends-s2-e1"
+          },
+          {
+            "episode": 7,
+            "title": "The One with the Race Car Bed",
+            "watch": "https://example.com/friends-s2-e1"
+          },
+          {
+            "episode": 8,
+            "title": "The One with the Giant Poking Device",
+            "watch": "https://example.com/friends-s2-e1"
+          },
+          {
+            "episode": 9,
+            "title": "The One with the Football",
+            "watch": "https://example.com/friends-s2-e1"
+          },
+          {
+            "episode": 10,
+            "title": "The One Where Rachel Quits",
+            "watch": "https://example.com/friends-s2-e1"
+          },
+          {
+            "episode": 11,
+            "title": "The One Where Chandler Can't Remember Which Sister",
+            "watch": "https://example.com/friends-s2-e1"
+          },
+          {
+            "episode": 12,
+            "title": "The One with All the Jealousy",
+            "watch": "https://example.com/friends-s2-e1"
+          },
+          {
+            "episode": 13,
+            "title": "The One Where Monica and Richard Are Just Friends",
+            "watch": "https://example.com/friends-s2-e1"
+          },
+          {
+            "episode": 14,
+            "title": "The One with Phoebe's Ex-Partner",
+            "watch": "https://example.com/friends-s2-e1"
+          },
+          {
+            "episode": 15,
+            "title": "The One Where Ross and Rachel Take a Break",
+            "watch": "https://example.com/friends-s2-e1"
+          },
+          {
+            "episode": 16,
+            "title": "The One with the Morning After",
+            "watch": "https://example.com/friends-s2-e1"
+          },
+          {
+            "episode": 17,
+            "title": "The One Without the Ski Trip",
+            "watch": "https://example.com/friends-s2-e1"
+          },
+          {
+            "episode": 18,
+            "title": "The One with the Hypnosis Tape",
+            "watch": "https://example.com/friends-s2-e1"
+          },
+          {
+            "episode": 19,
+            "title": "The One with the Tiny T-Shirt",
+            "watch": "https://example.com/friends-s2-e1"
+          },
+          {
+            "episode": 20,
+            "title": "The One with the Dollhouse",
+            "watch": "https://example.com/friends-s2-e1"
+          },
+          {
+            "episode": 21,
+            "title": "The One with a Chick and a Duck",
+            "watch": "https://example.com/friends-s2-e1"
+          },
+          {
+            "episode": 22,
+            "title": "The One with the Screamer",
+            "watch": "https://example.com/friends-s2-e1"
+          },
+          {
+            "episode": 23,
+            "title": "The One with Ross's Thing",
+            "watch": "https://example.com/friends-s2-e1"
+          },
+          {
+            "episode": 24,
+            "title": "The One with the Ultimate Fighting Champion",
+            "watch": "https://example.com/friends-s2-e1"
+          },
+          {
+            "episode": 25,
+            "title": "The One at the Beach",
             "watch": "https://example.com/friends-s2-e1"
           }
         ]
@@ -337,7 +502,7 @@
     "type": "series",
     "genre": ["Romance", "Comedy", "Sitcom", "TV series"],
     "poster": "posters/friends.webp",
-    "description": "The personal and professional lives of six friends living in the Manhattan borough of New York City.",
+    "description": "Нью-Йорк хотын Манхэттенд амьдардаг зургаан найзын хайр дурлал, ажил мэргэжил, өдөр тутмын амьдралын инээдтэй атлаа бодит түүхийг өгүүлнэ.",
     "trailer": "https://www.imdb.com/video/vi794543641/?playlistId=tt0108778&ref_=tt_ov_ov_vi",
     "seasons": [
       {
@@ -636,7 +801,7 @@
     "year": 2025,
     "genre": ["Superhero", "Action", "Adventure", "Sci-Fi", "Epic"],
     "poster": "posters/superman-2025.jpg",
-    "description": "Superman must reconcile his alien Kryptonian heritage with his human upbringing as reporter Clark Kent. As the embodiment of truth, justice and the American way he soon finds himself in a world that views these as old-fashioned.",
+    "description": "Супермэн өөрийн харь гаригийн Криптон гарал угсаа болон сурвалжлагч Кларк Кент хэмээх хүний орчинд өссөн амьдралаа хооронд нь зохицуулах шаардлагатай болно. Үнэн, шударга ёс, Америкийн үнэт зүйлсийн бэлгэдэл болсон тэрээр удалгүй эдгээрийг хуучирсан ойлголт гэж үздэг дэлхийтэй нүүр тулна.",
     "trailer": "https://www.youtube.com/watch?v=Ox8ZLF6cGM0",
     "watch": "https://t.me/c/3644144106/19"
   },
@@ -647,10 +812,10 @@
     "telegram_address": "https://t.me/+fHPHMb1ddKEzNjNl",
     "title": "Interstellar",
     "year": 2014,
-    "genre": ["Superhero", "Action", "Adventure", "Sci-Fi", "Epic", "Quest", "Time Travel", "Space Sci-Fi"],
+    "genre": ["Adventure", "Sci-Fi", "Epic", "Quest", "Time Travel", "Space Sci-Fi"],
     "poster": "posters/interstellar.jpg",
-    "description": "When Earth becomes uninhabitable in the future, a farmer and ex-NASA pilot, Joseph Cooper, is tasked to pilot a spacecraft, along with a team of researchers, to find a new planet for humans.",
+    "description": "Ирээдүйд Дэлхий амьдрах боломжгүй болох үед, тариачин бөгөөд НАСА-гийн нисгэгч асан Жозеф Купер хүн төрөлхтөнд амьдрах шинэ гариг олохын тулд судлаачдаас бүрдсэн багтай хамт сансрын хөлөг жолоодох үүрэг хүлээнэ.",
     "trailer": "https://www.youtube.com/watch?v=zSWdZVtXT7E",
-    "watch": "https://t.me/c/3644144106/19"
+    "watch": "https://t.me/c/3644144106/20"
   }
 ]
