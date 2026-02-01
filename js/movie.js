@@ -8,7 +8,7 @@ fetch("data/movies.json")
     const movie = movies.find((m) => m.id === movieId);
 
     if (!movie) {
-      container.innerHTML = "<p>Movie not found</p>";
+      container.innerHTML = "<p>Кино олдсонгүй!</p>";
       return;
     }
 

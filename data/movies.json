@@ -45,122 +45,122 @@
           {
             "episode": 1,
             "title": "The One Where Monica Gets a Roommate",
-            "watch": "https://example.com/friends-s1-e1"
+            "watch": "https://t.me/c/3522792115/3"
           },
           {
             "episode": 2,
             "title": "The One with the Sonogram at the End",
-            "watch": "https://example.com/friends-s1-e2"
+            "watch": "https://t.me/c/3522792115/4"
           },
           {
             "episode": 3,
             "title": "The One With The Thumb",
-            "watch": "https://example.com/friends-s1-e2"
+            "watch": "https://t.me/c/3522792115/5"
           },
           {
             "episode": 4,
             "title": "The One With George Stephanopoulos",
-            "watch": "https://example.com/friends-s1-e2"
+            "watch": "https://t.me/c/3522792115/6"
           },
           {
             "episode": 5,
             "title": "The One with the East German Laundry Detergent",
-            "watch": "https://example.com/friends-s1-e2"
+            "watch": "https://t.me/c/3522792115/7"
           },
           {
             "episode": 6,
             "title": "The One with the Butt",
-            "watch": "https://example.com/friends-s1-e2"
+            "watch": "https://t.me/c/3522792115/8"
           },
           {
             "episode": 7,
             "title": "The One with the Blackout",
-            "watch": "https://example.com/friends-s1-e2"
+            "watch": "https://t.me/c/3522792115/9"
           },
           {
             "episode": 8,
             "title": "The One Where Nana Dies Twice",
-            "watch": "https://example.com/friends-s1-e2"
+            "watch": "https://t.me/c/3522792115/10"
           },
           {
             "episode": 9,
             "title": "The One Where Underdog Gets Away",
-            "watch": "https://example.com/friends-s1-e2"
+            "watch": "https://t.me/c/3522792115/11"
           },
           {
             "episode": 10,
             "title": "The One with the Monkey",
-            "watch": "https://example.com/friends-s1-e2"
+            "watch": "https://t.me/c/3522792115/12"
           },
           {
             "episode": 11,
             "title": "The One with Mrs. Bing",
-            "watch": "https://example.com/friends-s1-e2"
+            "watch": "https://t.me/c/3522792115/13"
           },
           {
             "episode": 12,
             "title": "The One with the Dozen Lasagnas",
-            "watch": "https://example.com/friends-s1-e2"
+            "watch": "https://t.me/c/3522792115/14"
           },
           {
             "episode": 13,
             "title": "The One with the Boobies",
-            "watch": "https://example.com/friends-s1-e2"
+            "watch": "https://t.me/c/3522792115/15"
           },
           {
             "episode": 14,
             "title": "The One with the Candy Hearts",
-            "watch": "https://example.com/friends-s1-e2"
+            "watch": "https://t.me/c/3522792115/16"
           },
           {
             "episode": 15,
             "title": "The One with the Stoned Guy",
-            "watch": "https://example.com/friends-s1-e2"
+            "watch": "https://t.me/c/3522792115/17"
           },
           {
             "episode": 16,
             "title": "The One with Two Parts: Part 1",
-            "watch": "https://example.com/friends-s1-e2"
+            "watch": "https://t.me/c/3522792115/18"
           },
           {
             "episode": 17,
             "title": "The One with Two Parts: Part 2",
-            "watch": "https://example.com/friends-s1-e2"
+            "watch": "https://t.me/c/3522792115/19"
           },
           {
             "episode": 18,
             "title": "The One with All the Poker",
-            "watch": "https://example.com/friends-s1-e2"
+            "watch": "https://t.me/c/3522792115/20"
           },
           {
             "episode": 19,
             "title": "The One Where the Monkey Gets Away",
-            "watch": "https://example.com/friends-s1-e2"
+            "watch": "https://t.me/c/3522792115/21"
           },
           {
             "episode": 20,
             "title": "The One with the Evil Orthodontist",
-            "watch": "https://example.com/friends-s1-e2"
+            "watch": "https://t.me/c/3522792115/22"
           },
           {
             "episode": 21,
             "title": "The One with the Fake Monica",
-            "watch": "https://example.com/friends-s1-e2"
+            "watch": "https://t.me/c/3522792115/23"
           },
           {
             "episode": 22,
             "title": "The One with the Ick Factor",
-            "watch": "https://example.com/friends-s1-e2"
+            "watch": "https://t.me/c/3522792115/24"
           },
           {
             "episode": 23,
             "title": "The One with the Birth",
-            "watch": "https://example.com/friends-s1-e2"
+            "watch": "https://t.me/c/3522792115/25"
           },
           {
             "episode": 24,
             "title": "The One Where Rachel Finds Out",
-            "watch": "https://example.com/friends-s1-e2"
+            "watch": "https://t.me/c/3522792115/26"
           }
         ]
       },
@@ -638,6 +638,19 @@
     "poster": "posters/superman-2025.jpg",
     "description": "Superman must reconcile his alien Kryptonian heritage with his human upbringing as reporter Clark Kent. As the embodiment of truth, justice and the American way he soon finds himself in a world that views these as old-fashioned.",
     "trailer": "https://www.youtube.com/watch?v=Ox8ZLF6cGM0",
+    "watch": "https://t.me/c/3644144106/19"
+  },
+  {
+    "id": 6,
+    "createdAt": "2026-02-01T22:02:00",
+    "explain": "Telegram-д нэгдсэнээр киногоо үзэх болотжтой болох юм.",
+    "telegram_address": "https://t.me/+fHPHMb1ddKEzNjNl",
+    "title": "Interstellar",
+    "year": 2014,
+    "genre": ["Superhero", "Action", "Adventure", "Sci-Fi", "Epic", "Quest", "Time Travel", "Space Sci-Fi"],
+    "poster": "posters/interstellar.jpg",
+    "description": "When Earth becomes uninhabitable in the future, a farmer and ex-NASA pilot, Joseph Cooper, is tasked to pilot a spacecraft, along with a team of researchers, to find a new planet for humans.",
+    "trailer": "https://www.youtube.com/watch?v=zSWdZVtXT7E",
     "watch": "https://t.me/c/3644144106/19"
   }
 ]
